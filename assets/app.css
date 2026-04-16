@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Manrope', 'Segoe UI', sans-serif;
+}
+
+.stApp {
+    color-scheme: dark;
+    background:
+        radial-gradient(circle at 10% 10%, rgba(20, 184, 166, 0.12), transparent 30%),
+        radial-gradient(circle at 92% 8%, rgba(56, 189, 248, 0.14), transparent 28%),
+        linear-gradient(180deg, #07131a 0%, #0c1b22 100%);
+}
+
+.stApp,
+.stApp p,
+.stApp span,
+.stApp label,
+[data-testid="stWidgetLabel"],
+[data-testid="stMarkdownContainer"] p,
+[data-testid="stCaptionContainer"],
+.stSidebar,
+.stSidebar p,
+.stSidebar span,
+.stSidebar label {
+    color: #d5ecf2;
+}
+
+.hero {
+    padding: 1.35rem 1.4rem;
+    border-radius: 20px;
+    background: linear-gradient(120deg, #0f3b2f 0%, #115e59 55%, #1d4ed8 100%);
+    color: #f8fffd;
+    box-shadow: 0 14px 32px rgba(9, 52, 45, 0.22);
+    margin-bottom: 1.1rem;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.05rem;
+    letter-spacing: 0.2px;
+}
+
+.hero p {
+    margin: 0.4rem 0 0;
+    opacity: 0.92;
+    font-size: 1rem;
+}
+
+.chip-row {
+    margin-top: 0.75rem;
+    display: flex;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+}
+
+.chip {
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.section-title {
+    font-size: 1.18rem;
+    font-weight: 800;
+    color: #d7f3f1;
+    margin: 0.2rem 0 0.6rem;
+}
+
+.small-note {
+    color: #c8dbe3;
+    font-size: 0.9rem;
+}
+
+[data-testid="stMetricValue"] {
+    color: #d7f3f1;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #c8dbe3;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 1rem;
+        border-radius: 16px;
+    }
+
+    .hero h1 {
+        font-size: 1.45rem;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 0.92rem;
+    }
+
+    .chip {
+        font-size: 0.72rem;
+        padding: 0.2rem 0.5rem;
+    }
+}

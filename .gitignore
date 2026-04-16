@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Data outputs
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.xlsx
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Streamlit cache and secrets
+.streamlit/secrets.toml
+
+# Local env files
+.env
+.env.*
+
+# OS/editor
+.DS_Store
+.vscode/
