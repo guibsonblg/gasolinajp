@@ -21,6 +21,8 @@ data/raw/*.xlsx
 data/processed/*.csv
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/raw/anp_latest_raw.xlsx
+!data/processed/joao_pessoa_combustiveis.csv
 
 # Streamlit cache and secrets
 .streamlit/secrets.toml
