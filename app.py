@@ -182,6 +182,8 @@ st.markdown('<div class="small-note">Cada linha representa uma opção de menor 
 
 display_df = filtered[["combustivel", "bairro", "preco", "revenda", "endereco", "data_coleta"]].copy()
 display_df["revenda"] = display_df["revenda"].fillna("Não informado").replace("", "Não informado")
+datas_coleta = pd.to_datetime(display_df["data_coleta"], errors="coerce")
+display_df["data_coleta"] = datas_coleta.dt.strftime("%d/%m/%y").fillna(display_df["data_coleta"].astype(str))
 display_df = display_df.rename(
     columns={
         "combustivel": "Combustível",

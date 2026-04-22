@@ -1,0 +1,88 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07131A"/>
+      <stop offset="1" stop-color="#0C1B22"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="210" y1="72" x2="1118" y2="272" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F3B2F"/>
+      <stop offset="0.55" stop-color="#115E59"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1400" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <circle cx="132" cy="110" r="180" fill="#14B8A6" fill-opacity="0.08"/>
+  <circle cx="1260" cy="94" r="160" fill="#38BDF8" fill-opacity="0.08"/>
+
+  <g filter="url(#shadow)">
+    <rect x="42" y="32" width="1316" height="836" rx="26" fill="#0E1720" stroke="#20313D"/>
+  </g>
+
+  <rect x="72" y="62" width="1256" height="170" rx="24" fill="url(#hero)"/>
+  <text x="106" y="118" fill="#F8FFFD" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700">Combustível mais barato em João Pessoa</text>
+  <text x="106" y="156" fill="#E4F8F4" font-family="Segoe UI, Arial, sans-serif" font-size="20">Veja os menores preços por bairro com base nos dados oficiais semanais da ANP</text>
+
+  <rect x="106" y="182" width="154" height="34" rx="17" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.22)"/>
+  <rect x="274" y="182" width="170" height="34" rx="17" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.22)"/>
+  <rect x="458" y="182" width="86" height="34" rx="17" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.22)"/>
+  <rect x="558" y="182" width="130" height="34" rx="17" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.22)"/>
+  <text x="124" y="204" fill="#F8FFFD" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Gasolina comum</text>
+  <text x="292" y="204" fill="#F8FFFD" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Gasolina aditivada</text>
+  <text x="484" y="204" fill="#F8FFFD" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Etanol</text>
+  <text x="584" y="204" fill="#F8FFFD" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Diesel comum</text>
+
+  <text x="84" y="278" fill="#D7F3F1" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Filtros</text>
+
+  <rect x="84" y="304" width="344" height="154" rx="18" fill="#111C24" stroke="#20313D"/>
+  <rect x="444" y="304" width="436" height="154" rx="18" fill="#111C24" stroke="#20313D"/>
+  <rect x="896" y="304" width="432" height="154" rx="18" fill="#111C24" stroke="#20313D"/>
+
+  <text x="108" y="338" fill="#D5ECF2" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Tipo de combustível</text>
+  <circle cx="120" cy="372" r="7" fill="#14B8A6"/>
+  <text x="138" y="378" fill="#D5ECF2" font-family="Segoe UI, Arial, sans-serif" font-size="15">Todos</text>
+  <circle cx="120" cy="402" r="7" stroke="#587182"/>
+  <text x="138" y="408" fill="#D5ECF2" font-family="Segoe UI, Arial, sans-serif" font-size="15">Gasolina comum</text>
+  <circle cx="120" cy="432" r="7" stroke="#587182"/>
+  <text x="138" y="438" fill="#D5ECF2" font-family="Segoe UI, Arial, sans-serif" font-size="15">Etanol</text>
+
+  <text x="468" y="338" fill="#D5ECF2" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Bairros</text>
+  <rect x="468" y="352" width="124" height="34" rx="10" fill="#17313C"/>
+  <rect x="602" y="352" width="92" height="34" rx="10" fill="#172631"/>
+  <rect x="468" y="398" width="388" height="42" rx="12" fill="#0E1720" stroke="#28404D"/>
+  <text x="489" y="378" fill="#D7F3F1" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Selecionar todos</text>
+  <text x="631" y="378" fill="#D5ECF2" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Limpar</text>
+  <text x="489" y="424" fill="#7FA0B0" font-family="Segoe UI, Arial, sans-serif" font-size="14">Escolha bairros</text>
+
+  <text x="920" y="338" fill="#D5ECF2" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Buscar posto ou endereço</text>
+  <rect x="920" y="352" width="376" height="42" rx="12" fill="#0E1720" stroke="#28404D"/>
+  <text x="942" y="378" fill="#7FA0B0" font-family="Segoe UI, Arial, sans-serif" font-size="14">Ex.: avenida epitácio...</text>
+
+  <rect x="84" y="486" width="398" height="92" rx="18" fill="#111C24" stroke="#20313D"/>
+  <rect x="506" y="486" width="398" height="92" rx="18" fill="#111C24" stroke="#20313D"/>
+  <rect x="928" y="486" width="400" height="92" rx="18" fill="#111C24" stroke="#20313D"/>
+  <text x="108" y="522" fill="#93B5C3" font-family="Segoe UI, Arial, sans-serif" font-size="15">Registros exibidos</text>
+  <text x="108" y="558" fill="#D7F3F1" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">59</text>
+  <text x="530" y="522" fill="#93B5C3" font-family="Segoe UI, Arial, sans-serif" font-size="15">Bairros encontrados</text>
+  <text x="530" y="558" fill="#D7F3F1" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">22</text>
+  <text x="952" y="522" fill="#93B5C3" font-family="Segoe UI, Arial, sans-serif" font-size="15">Combustíveis</text>
+  <text x="952" y="558" fill="#D7F3F1" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">4</text>
+
+  <text x="84" y="626" fill="#D7F3F1" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Destaques rápidos</text>
+  <rect x="84" y="648" width="1244" height="110" rx="18" fill="#111C24" stroke="#20313D"/>
+  <text x="112" y="684" fill="#93B5C3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Combustível</text>
+  <text x="390" y="684" fill="#93B5C3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Bairro</text>
+  <text x="620" y="684" fill="#93B5C3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Menor preço</text>
+  <text x="858" y="684" fill="#93B5C3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Posto</text>
+  <line x1="108" y1="698" x2="1304" y2="698" stroke="#20313D"/>
+  <text x="112" y="732" fill="#D5ECF2" font-family="Segoe UI, Arial, sans-serif" font-size="15">Etanol</text>
+  <text x="390" y="732" fill="#D5ECF2" font-family="Segoe UI, Arial, sans-serif" font-size="15">Bessa</text>
+  <text x="620" y="732" fill="#D5ECF2" font-family="Segoe UI, Arial, sans-serif" font-size="15">R$ 4,64</text>
+  <text x="858" y="732" fill="#D5ECF2" font-family="Segoe UI, Arial, sans-serif" font-size="15">Posto Expressao</text>
+
+  <text x="84" y="804" fill="#D7F3F1" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Tabela completa</text>
+  <text x="84" y="830" fill="#93B5C3" font-family="Segoe UI, Arial, sans-serif" font-size="14">Cada linha representa uma opção de menor preço por bairro e combustível.</text>
+</svg>

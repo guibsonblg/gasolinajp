@@ -2,6 +2,10 @@
 
 App em Python para mostrar os combustíveis mais baratos em João Pessoa, usando dados abertos da ANP.
 
+## Visualização
+
+![Prévia do dashboard](assets/dashboard-preview.svg)
+
 Arquitetura:
 - `src/gasolina_jp/pipeline.py`: concentra a regra de negócio (download ANP, leitura da planilha, filtro João Pessoa e top 3).
 - `scripts/update_data.py`: executa o pipeline e salva os arquivos.
